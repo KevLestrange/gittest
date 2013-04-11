@@ -10,7 +10,7 @@ public class ScientificCalculator {
 		return x+y;
 	}
 	public int subtract(int x,int y){
-		return x+y;
+		return x-y;
 	}
 	
 }
