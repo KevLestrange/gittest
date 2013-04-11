@@ -24,5 +24,10 @@ public class ScientificCalculatorTest {
 		assertEquals(5, c.add(2,3));
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testSubtract(){
+		ScientificCalculator c = new ScientificCalculator();
+		assertEquals(1, c.subtract(3, 2));
+	}
 
 }
